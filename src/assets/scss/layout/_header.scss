@@ -1,0 +1,130 @@
+.header {
+  padding-top: 30px;
+  background-color: #F7F6FF;
+}
+
+.frame-circle {
+  border-radius: 50%;
+}
+
+.banner {
+  padding: 40px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+
+  & .left-side {
+    width: 40%;
+    margin-top: 100px;
+
+    & h1 {
+      font-weight: bold;
+      margin-bottom: 30px;
+
+      & span {
+        color: $header-green-palette;
+      }
+    }
+
+    & p:not([class="rubric"]) {
+      font-weight: 500;
+      margin-bottom: 50px;
+    }
+
+    & .header-search {
+      width: 100%;
+      position: relative;
+      margin-bottom: 50px;
+
+      & input {
+        width: 90%;
+        padding: 20px 0 20px 20px;
+        border: none;
+        border-radius: 50px;
+        background-color: #F2F0FE;
+      }
+
+      & .header-search-btn {
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-weight: bold;
+      }
+    }
+
+    & .rubrics {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: right;
+
+      & .rubric {
+        margin: 0 0 20px 20px;
+      }
+    }
+  }
+
+  & .right-side {
+    width: 60%;
+    text-align: right;
+    position: relative;
+
+    & .frame-1 {
+      width: 500px;
+      height: 500px;
+      position: relative;
+      border-radius: 50%;
+      background-color: #FFD6B2;
+      margin-top: 20%;
+      margin-left: 30%;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: url("@/assets/img/homepage-frame-1.png") center center no-repeat;
+        background-size: 500px 500px;
+      }
+    }
+
+    & .frame-2 {
+      @include frameMakeStyle(80px, 80px, #FFEDDD);
+      top: 40px;
+      left: 300px;
+    }
+
+    & .frame-3 {
+      @include frameMakeStyle(50px, 50px, #FBA457);
+      top: 32%;
+      right: 11%;
+    }
+
+    & .coin {
+      position: absolute;
+      top: 25%;
+      left: 20%;
+    }
+
+    & .stars {
+      position: absolute;
+      bottom: 150px;
+      right: 75px;
+    }
+
+    & .wave {
+      position: absolute;
+      bottom: 75px;
+      right: 90px;
+    }
+
+    & .dots {
+      position: absolute;
+      bottom: 50px;
+      left: 200px;
+    }
+  }
+}

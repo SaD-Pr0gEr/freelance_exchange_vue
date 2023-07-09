@@ -1,11 +1,14 @@
 <template>
-  <h1>Home</h1>
+  <HeaderVue></HeaderVue>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import HeaderVue from "@/layout/HeaderVue.vue";
 
-@Options({})
+@Options({
+  components: { HeaderVue },
+})
 export default class HomeView extends Vue {}
 </script>
 

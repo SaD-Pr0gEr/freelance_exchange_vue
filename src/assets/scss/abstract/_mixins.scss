@@ -1,0 +1,6 @@
+@mixin frameMakeStyle($width, $height, $bg-col) {
+  width: $width;
+  height: $height;
+  background-color: $bg-col;
+  position: absolute;
+}
