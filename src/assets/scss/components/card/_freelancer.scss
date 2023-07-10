@@ -1,0 +1,27 @@
+.freelancer-card {
+  & .user {
+    & img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+
+    & .user-info p {
+      margin-bottom: 15px;
+    }
+
+    & .user-info p:not(:first-child) {
+      font-weight: normal;
+    }
+
+    & .user-info .profession {
+      font-weight: bold !important;
+      color: #FBA457;
+      font-size: 18px;
+    }
+
+    & .user-info .rate-stars {
+      font-size: 30px;
+    }
+  }
+}
