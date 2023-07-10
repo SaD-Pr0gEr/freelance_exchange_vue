@@ -4,5 +4,30 @@
 @import "@/assets/scss/base/_utils.scss";
 @import "@/assets/scss/components/button/header-search.scss";
 @import "@/assets/scss/components/button/rubric.scss";
+@import "@/assets/scss/components/button/look.scss";
+@import "@/assets/scss/components/card/_actual-work-card.scss";
+@import "@/assets/scss/components/card/_empty.scss";
 @import "@/assets/scss/layout/_header.scss";
 @import "@/assets/scss/layout/_navbar.scss";
+
+
+.actual-works h3 {
+  margin-bottom: 50px;
+}
+
+.actual-works .works {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.actual-works .works .actual-work-card {
+  width: 32%;
+  margin-bottom: 30px;
+}
+
+.main {
+  background-color: #F6FAFD;
+  padding-top: 125px;
+}

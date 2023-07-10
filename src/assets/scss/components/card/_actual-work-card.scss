@@ -1,0 +1,33 @@
+.actual-work-card {
+  border: 2px solid #F2F0FE;
+  padding: 20px;
+  border-radius: 20px;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: all .5s;
+  }
+
+  & .user,
+  & .work-description {
+    margin-bottom: 30px;
+  }
+
+  & .user {
+    display: flex;
+    align-items: center;
+
+    & p {
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    & img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}

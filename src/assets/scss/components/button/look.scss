@@ -1,0 +1,11 @@
+.look-btn {
+  padding: 15px 110px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 500;
+
+  &:hover {
+    @include fullGreen();
+    transition: background-color ease .5s;
+  }
+}

@@ -1,13 +1,17 @@
 <template>
   <HeaderVue></HeaderVue>
+  <main class="main">
+    <ActualWorks></ActualWorks>
+  </main>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import HeaderVue from "@/layout/HeaderVue.vue";
+import ActualWorks from "@/layout/ActualWorks.vue";
 
 @Options({
-  components: { HeaderVue },
+  components: { ActualWorks, HeaderVue },
 })
 export default class HomeView extends Vue {}
 </script>

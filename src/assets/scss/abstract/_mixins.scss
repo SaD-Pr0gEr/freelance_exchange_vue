@@ -4,3 +4,8 @@
   background-color: $bg-col;
   position: absolute;
 }
+
+@mixin fullGreen() {
+  color: white;
+  background-color: $header-green-palette;
+}
