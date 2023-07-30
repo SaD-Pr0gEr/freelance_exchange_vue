@@ -1,0 +1,26 @@
+footer.footer {
+  background-color: #F2F0FE;
+  padding: 50px 0 100px 0;
+}
+
+.footer-content {
+  @include flexBox(flex-start)
+}
+
+.footer-col {
+  width: 25%;
+
+  & h2 {
+    margin-bottom: 50px;
+  }
+
+  & a {
+    margin-bottom: 10px;
+    display: block;
+    color: #222222;
+  }
+
+  & .socials {
+    @include flexBox()
+  }
+}
