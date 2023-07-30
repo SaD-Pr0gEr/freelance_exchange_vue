@@ -16,3 +16,10 @@
   rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   transition: all .5s;
 }
+
+@mixin flexBox($a-items: center, $j-content: space-between, $wrap: wrap) {
+  display: flex;
+  align-items: $a-items;
+  justify-content: $j-content;
+  flex-wrap: $wrap;
+}

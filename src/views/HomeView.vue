@@ -3,6 +3,7 @@
   <main class="main">
     <ActualWorks></ActualWorks>
     <TopFreelancers></TopFreelancers>
+    <WorkSteps></WorkSteps>
   </main>
 </template>
 
@@ -11,9 +12,10 @@ import { Options, Vue } from "vue-class-component";
 import HeaderVue from "@/layout/HeaderVue.vue";
 import ActualWorks from "@/layout/ActualWorks.vue";
 import TopFreelancers from "@/layout/TopFreelancers.vue";
+import WorkSteps from "@/layout/WorkSteps.vue";
 
 @Options({
-  components: { TopFreelancers, ActualWorks, HeaderVue },
+  components: { WorkSteps, TopFreelancers, ActualWorks, HeaderVue },
 })
 export default class HomeView extends Vue {}
 </script>

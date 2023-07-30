@@ -2,17 +2,19 @@
 @import "@/assets/scss/abstract/_vars.scss";
 @import "@/assets/scss/abstract/_mixins.scss";
 @import "@/assets/scss/base/_utils.scss";
-@import "@/assets/scss/components/button/header-search.scss";
-@import "@/assets/scss/components/button/rubric.scss";
-@import "@/assets/scss/components/button/look.scss";
+@import "@/assets/scss/components/button/_header-search.scss";
+@import "@/assets/scss/components/button/_rubric.scss";
+@import "@/assets/scss/components/button/_look.scss";
 @import "@/assets/scss/components/card/_actual-work-card.scss";
 @import "@/assets/scss/components/card/_freelancer.scss";
 @import "@/assets/scss/components/card/_empty.scss";
+@import "@/assets/scss/components/card/_solve.scss";
 @import "@/assets/scss/layout/_header.scss";
 @import "@/assets/scss/layout/_navbar.scss";
 
 
-.actual-works {
+.actual-works,
+.top-freelancers {
   margin-bottom: 100px;
 }
 
@@ -42,4 +44,12 @@
 .main {
   background-color: #F6FAFD;
   padding-top: 125px;
+}
+
+.container-header {
+  margin-bottom: 50px;
+}
+
+.container-header h2 {
+  margin-bottom: 25px;
 }
