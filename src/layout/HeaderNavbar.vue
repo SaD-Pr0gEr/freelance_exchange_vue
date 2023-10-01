@@ -1,7 +1,13 @@
 <template>
   <nav class="header-navbar">
-    <img src="@/assets/img/logo.svg" alt="site logo" />
-    <router-link class="header-link" to="#">Биржа</router-link>
+    <img
+      src="@/assets/img/logo.svg"
+      alt="site logo"
+      @click.prevent="$router.push({ name: 'home' })"
+    />
+    <router-link class="header-link" :to="{ name: 'exchange' }">
+      Биржа
+    </router-link>
     <router-link class="header-link" to="#">Ворки</router-link>
     <router-link class="header-link" to="#">Конкурсы</router-link>
     <router-link class="header-link" to="#">Создать ворк</router-link>

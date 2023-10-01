@@ -21,7 +21,3 @@ import FooterVue from "@/layout/FooterVue.vue";
 })
 export default class HomeView extends Vue {}
 </script>
-
-<style lang="scss">
-@import "@/assets/scss/pages/home.scss";
-</style>
