@@ -29,16 +29,16 @@
         <h2>Follow</h2>
         <div class="socials">
           <a href="#!">
-            <img src="@/assets/img/facebook.svg" alt="facebook" />
+            <FacebookVue />
           </a>
           <a href="#!">
-            <img src="@/assets/img/instagram.svg" alt="facebook" />
+            <InstagramVue />
           </a>
           <a href="#!">
-            <img src="@/assets/img/twitter.svg" alt="facebook" />
+            <TwitterVue />
           </a>
           <a href="#!">
-            <img src="@/assets/img/linkedin.svg" alt="facebook" />
+            <LinkedinVue />
           </a>
         </div>
       </div>
@@ -48,7 +48,13 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import FacebookVue from "@/components/svg/FacebookVue.vue";
+import TwitterVue from "@/components/svg/TwitterVue.vue";
+import InstagramVue from "@/components/svg/InstagramVue.vue";
+import LinkedinVue from "@/components/svg/LinkedinVue.vue";
 
-@Options({})
+@Options({
+  components: { LinkedinVue, InstagramVue, TwitterVue, FacebookVue },
+})
 export default class FooterVue extends Vue {}
 </script>

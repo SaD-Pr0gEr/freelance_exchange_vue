@@ -23,10 +23,10 @@
       <div class="frame-1"></div>
       <figure class="frame-circle frame-2"></figure>
       <figure class="frame-circle frame-3"></figure>
-      <img class="coin" src="@/assets/img/coin.svg" alt="coin" />
-      <img class="stars" src="@/assets/img/stars.svg" alt="stars" />
+      <img class="coin animate" src="@/assets/img/coin.svg" alt="coin" />
+      <img class="stars animate" src="@/assets/img/stars.svg" alt="stars" />
       <img class="wave" src="@/assets/img/wave.svg" alt="wave" />
-      <img class="dots" src="@/assets/img/dots.svg" alt="dots" />
+      <img class="dots animate" src="@/assets/img/dots.svg" alt="dots" />
     </div>
   </div>
 </template>

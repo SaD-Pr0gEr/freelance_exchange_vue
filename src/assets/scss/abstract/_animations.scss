@@ -1,0 +1,44 @@
+@keyframes goright {
+  0% {
+    margin-left: 100px;
+  }
+
+  50% {
+    margin-left: 50px;
+  }
+
+  100% {
+    margin-left: 100px;
+  }
+}
+
+@keyframes stars-slidein {
+  from {
+    right: 20px;
+  }
+
+  75% {
+    right: -20px;
+  }
+
+  to {
+    right: 20px;
+  }
+}
+
+@keyframes coin-slidein {
+  from {
+    top: 25%;
+    left: 20%;
+  }
+
+  75% {
+    top: 27%;
+    left: 22%;
+  }
+
+  to {
+    top: 25%;
+    left: 20%;
+  }
+}

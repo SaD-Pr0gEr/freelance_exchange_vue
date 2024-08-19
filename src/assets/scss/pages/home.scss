@@ -1,4 +1,5 @@
 @import "@/assets/scss/base/_base.scss";
+@import "@/assets/scss/abstract/_animations.scss";
 @import "@/assets/scss/abstract/_vars.scss";
 @import "@/assets/scss/abstract/_mixins.scss";
 @import "@/assets/scss/base/_utils.scss";
@@ -54,4 +55,18 @@
 
 .solves {
   padding-bottom: 100px;
+}
+
+.stars.animate {
+  animation: stars-slidein;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.coin.animate {
+  animation: coin-slidein;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }

@@ -18,6 +18,14 @@ footer.footer {
     margin-bottom: 10px;
     display: block;
     color: #222222;
+    transition: background-color .5s;
+
+    &:hover {
+      & svg.green-hover-svg path,
+      & svg circle {
+        fill: $header-green-palette;
+      }
+    }
   }
 
   & .socials {
